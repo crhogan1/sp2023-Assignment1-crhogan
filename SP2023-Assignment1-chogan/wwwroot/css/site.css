@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: #908F8B;
+}
+
+#Title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#CoverArt {
+    border-radius: 50%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Rating {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.imdb {
+    padding: 40px;
+    color: white;
+}
+
+#Actors {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
